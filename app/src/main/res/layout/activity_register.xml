@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2673"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/player" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtUserNameRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/account"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:background="@drawable/custom_view"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/edtPasswordRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_view"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtRetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_view"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="@string/retryPassword"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:text="Đăng ký" />
+
+</LinearLayout>
