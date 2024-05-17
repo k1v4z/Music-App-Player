@@ -34,11 +34,10 @@ Steps:
 
 # 🎧 Usage
 Home Screen
-- Library: Access all your songs and albums.
 - Playlists: View and manage your playlists.
 - Now Playing: Quickly return to the currently playing song.
 Playing Music
 - Control Playback: Use the play/pause button to start or stop music, and the next/previous buttons to skip tracks.
 - Seek Bar: Drag the seek bar to navigate through the current track.
 Add song into Playlists
-- Click button in far right which have "+"
+- Click button in far right which has "+"
