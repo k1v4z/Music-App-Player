@@ -14,7 +14,7 @@ The Music Player App is an Android application developed in Java that offers a s
 - Retrofit: Type-safe HTTP client for Android and Java to handle REST API calls.
 - OKHttp: HTTP & HTTP/2 client for efficient networking.
 - MVP Architecture: Model-View-Presenter pattern for organized and maintainable code.
-- Glide: Load url from internet
+- Glide: Load image from internet
 ## Database
 - MySQL
 # 🚀 Installation
