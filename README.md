@@ -18,10 +18,10 @@ The Music Player App is an Android application developed in Java that offers a s
 ## Database
 - MySQL
 # 🚀 Installation
-Prerequisites:
+## Prerequisites:
 - Android Studio installed on your computer.
-- An Android device or emulator running Android 8.0 or higher
-Steps:
+- An Android device or emulator running Android 8.0 or higher.
+## Steps:
 1. Clone repository: `https://github.com/k1v4z/Music-App-Player.git`
 2. Open in Android Studio
 - Launch Android Studio and select `Open an existing Android Studio project`.
